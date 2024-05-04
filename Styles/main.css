@@ -1,0 +1,25 @@
+/* Estilos para el encabezado */
+.recetas-argentinas {
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+.nota{
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.recetas-tipicas{
+    display: block;
+    border: slateblue;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+}
+    
+
+
+
