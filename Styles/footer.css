@@ -1,0 +1,13 @@
+
+.footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #E94027;
+    color: #fff;
+    font-family:questrial;
+    font-size: 18px;
+}

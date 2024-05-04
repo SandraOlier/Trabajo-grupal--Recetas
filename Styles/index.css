@@ -1,0 +1,143 @@
+
+.titulo-receta{
+    margin-top: 30px;;
+    display: flex;
+    justify-content: center;
+    color: #E94027;
+    font-family: questrial;
+    font-size: 54px;
+    margin-bottom: 30px;
+
+}
+
+.imagen-receta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.imagen-receta img{
+    width: 650px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+
+.header-receta{
+    position: relative;
+}
+
+.contenedor-receta{
+    background-color:#fff;
+    width: 60%;
+    height: 180px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 20px;
+
+}
+
+.titulo-header-receta{
+    text-align: center;
+    font-family: questrial;
+    color: #4D4D4D;
+    font-size: 20px;
+    padding-top: 20px;
+    z-index: 10;
+
+
+}
+
+.menu-header-receta{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: questrial;
+    color:#E94027;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+
+.menu-header-receta ul a{
+    text-decoration: none;
+}
+
+.menu-header-receta ul li{
+    text-align: center;
+    font-family: questrial;
+    color:#E94027;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: -40px;
+}
+
+.ingredientes-receta{
+    width: 100%;
+    margin-top: 160px;
+    text-align: center;
+    font-family: questrial;
+    color: #4d4d4d;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.ingredientes-receta ul li{
+    list-style: none;
+    margin-left: -40px;
+}
+
+.titulo-ingredientes{
+    text-align: center;
+    font-family: questrial;
+    color: #6e6e6e;
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+
+.elaboracion-receta{
+    font-family: questrial;
+    color:#747474;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
+
+.titulo-elaboracion{
+
+    text-align: center;
+    font-family: bebas;
+    color:#E94027;
+    font-size: 30px;
+    padding-top: 15px;
+
+}
+h2{
+    font-size: 27px;
+    color:#E94027;
+
+
+}
+
+h3{
+    color: #4D4D4D;
+
+}
+
+h4{
+    font-size: 20px;
+    color:#E94027;
+
+}
