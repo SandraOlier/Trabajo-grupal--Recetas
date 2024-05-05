@@ -7,19 +7,47 @@
 }
 .nota{
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 20px;
 }
-
+    
 .recetas-tipicas{
     display: block;
-    border: slateblue;
-    font-size: 20px;
-    justify-content: space-around;
-    align-items: center;
-    float: right;
-}
+    float: left;
+    font-size: 25px;
+    margin: 10px;
     
 
+}
+article{
+display: block;
+float: right;
+font-size: 21px;
+margin: 10px;
+}
 
+img{
+    display: flex;
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: 10px;
 
+   
+}
+
+.recetas{
+    display: block;
+    justify-content: space-around;
+    width: 19%;
+    height:100%;
+    font-size: 18px;   
+}
+
+.imagen{
+    float: right;
+}
+    .preparacion{
+        font-size: 18px;
+        
+    }
