@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('Fonts/BEBAS_.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+  @font-face {
+    font-family: 'questrial';
+    src: url('Fonts/Questrial-Regular.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  body{
+    margin: 0;
+  }
+
+.contenedor{
+    width: 100%;
+    background-color:#F3F3F3;
+   
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.logo{
+
+}
+
+.logo img{
+    width: 200px;
+
+    
+}
+
+.hr-1{
+    margin-top: 0px;
+    background-color: #4D4D4D;
+    height: 3px;
+    margin-bottom:0px;
+
+}
+
+.hr-2{
+    margin-top: 1px;
+    background-color: #E94027;
+    height: 3px;
+
+
+}
+
+
+
+h2{
+    font-size: 27px;
+    color:#E94027;
+
+
+}
+
+h3{
+    color: #4D4D4D;
+
+}
+
+h4{
+    font-size: 20px;
+    color:#E94027;
+
+}
+.contenedor-menu{
+
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.menu{
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+    
+    
+}
+
+.botones-menu{
+    padding: 10px;
+    font-family: nexa;
+    font-size: 19px;
+    color: #4D4D4D;
+
+
+}
+a{
+    text-decoration: none;
+}
+a:link, :visited, :active{
+    color: #4D4D4D;
+}
+
+a:hover{ 
+    font-family: nexa;
+    font-size: 19px;
+    color: #E83A26;
+
+
+}
+

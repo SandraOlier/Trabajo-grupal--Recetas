@@ -1,0 +1,106 @@
+.contenido {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    /*Permitir que los elementos se envuelvan */
+    justify-content: space-between;
+    /* gap: 20px;
+    padding: 25px; */
+}
+
+.grupo-imagenes {
+    width: 210px;
+    padding: 0;
+    margin: 0;
+    margin: 10px;
+}
+
+.grupo-imagenes img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px;
+    /* Establece el margen de 10px en todas las direcciones */
+
+}
+
+/* Estilos al pasar el cursor sobre las imágenes */
+.grupo-imagenes img:hover {
+    transform: scale(1.1);
+    /* Aumenta el tamaño de la imagen al 110% */
+    transition: transform 0.3s ease;
+    /* Agrega una transición suave al efecto */
+    filter: brightness(1.2);
+    /* Reduce el brillo de la imagen */
+}
+
+
+
+h1 {
+    font-size: 40px;
+    /* Tamaño de la fuente del título "Nuestros Servicios"*/
+    margin-top: 0px;
+    /* Ajusta la distancia hacia arriba del título*/
+
+}
+
+.contenedor-interior {
+    background-color: #ffffff;
+    /*Color de fondo para el recuadro interior*/
+    padding: 20px;
+    border: 2px solid #ccc;
+    /*Borde del recuadro interior */
+    border-radius: 10px;
+    /*Borde redondeado */
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 30px;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+
+.contenedor-titulo {
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contenedor-texto {
+    font-size: 17px;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+}
+
+.grupo-imagenes {
+    margin-right: 5px;
+}
+
+
+h1 {
+    color: #cb250c;
+    /* Color del título */
+}
+
+p {
+    color: #0b0b0b;
+    /* Color del texto */
+}
+
+h2 {
+    color: #cb250c;
+    /* Color del título */
+    font-size: 40px;
+}
+
+.contenedor-texto h2 {
+    text-align: center;
+    /* Centra el título h2 */
+}
