@@ -2,7 +2,6 @@
     /* margin-top: 10px; */
     display: flex;
     flex-wrap: wrap;
-    /*Permitir que los elementos se envuelvan */
     justify-content: space-between;
     /* gap: 20px;
     padding: 25px; */
@@ -20,8 +19,6 @@
     height: auto;
     display: block;
     margin: 10px;
-    /* Establece el margen de 10px en todas las direcciones */
-
 }
 
 /* Estilos al pasar el cursor sobre las imágenes */
@@ -40,24 +37,18 @@ h1 {
     font-size: 40px;
     /* Tamaño de la fuente del título "Nuestros Servicios"*/
     margin-top: 0px;
-    /* Ajusta la distancia hacia arriba del título*/
-
 }
 
 .contenedor-interior {
     background-color: #ffffff;
-    /*Color de fondo para el recuadro interior*/
     padding: 20px;
     border: 2px solid #ccc;
-    /*Borde del recuadro interior */
     border-radius: 10px;
-    /*Borde redondeado */
     flex: 1;
     margin-right: 20px;
     margin-left: 30px;
     text-align: center;
     padding-bottom: 0px;
-
 }
 
 .contenedor-titulo {
@@ -71,7 +62,6 @@ h1 {
     text-align: justify;
     padding-bottom: 20px;
     margin-top: 0px;
-
 }
 
 .contenido {
@@ -96,11 +86,9 @@ p {
 
 h2 {
     color: #cb250c;
-    /* Color del título */
     font-size: 40px;
 }
 
 .contenedor-texto h2 {
     text-align: center;
-    /* Centra el título h2 */
 }
