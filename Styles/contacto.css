@@ -1,12 +1,30 @@
 .contenedor-contacto{
-    background-color:#d83434;
-    width: 60%;
-    height: 180px;
-    z-index: 10;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    border: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    /*background-color:#d83434;*/
+    position: relative;
+    /*flex-wrap: 0 0 calc(50% -2rem);*/
+    flex-direction: row;
 
+} 
+
+.formulario{
+background-color: rgb(240, 208, 208);
+border-radius: 15px;
+margin: 30px;
+padding: 3%;
+border: 30px;
+
+} 
+
+.mapa {
+    margin: 30px;
+    padding: 3%;
+    width: 50em; min-width: 300px;
+
+}
+
+@media (max-width: 450px) {
+    align-item
 }
