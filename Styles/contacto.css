@@ -1,30 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .contenedor-contacto{
-    box-sizing: border-box;
-    display: flex;
     justify-content: space-around;
-    /*background-color:#d83434;*/
+    box-sizing: border-box;
     position: relative;
-    /*flex-wrap: 0 0 calc(50% -2rem);*/
-    flex-direction: row;
+    display: flex;
+    flex-flow: row wrap;
 
 } 
 
 .formulario{
 background-color: rgb(240, 208, 208);
 border-radius: 15px;
-margin: 30px;
+align-items: center;
+margin: auto;
 padding: 3%;
-border: 30px;
+border: 30px; 
+max-width: 320px;
 
 } 
 
-.mapa {
-    margin: 30px;
-    padding: 3%;
-    width: 50em; min-width: 300px;
+.contenedor-mapa{
+    box-sizing: border-box;
+    max-width: 50%; min-width: 320px;
+    justify-content: space-around;
 
 }
 
-@media (max-width: 450px) {
-    align-item
+.mapa {
+
+    width: 100%; min-width: 300px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .contenedor-contacto{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+
+    }
+
+    
+
+    .contenedor-mapa {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+       padding-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .contenedor-contacto{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+
+    }
+    .contenedor-mapa {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+       padding-bottom: 30px;
+        
+    }
+    .mapa {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contenedor-contacto{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+
+    }
+    .contenedor-mapa {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        
+    }
 }
