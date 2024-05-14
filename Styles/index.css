@@ -2,9 +2,12 @@
     margin-top:-10px;
     background-image: url('../Images/banner.jpg') ;
     background-size: cover;
-    height: 80vh;
+    height: 450px;
     display: block;
     overflow: hidden;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 
@@ -61,6 +64,7 @@ a:hover{
     padding-bottom: 30px;
     padding-top: 40px;
     background: linear-gradient(#fff, 80%, #f8e0e0);
+    margin-top: 450px;
 }
 .titulo-banner-items{
     text-align: center;
@@ -120,6 +124,14 @@ a:hover{
     font-size: 17px;
     padding-bottom: 35px;
     color: #6e6e6e;
+
+}
+.receta-dia{
+    color: #777;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: nexa;
 
 }
 

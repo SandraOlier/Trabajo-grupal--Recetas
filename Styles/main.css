@@ -5,6 +5,24 @@
     text-align: center;
     margin: 20px 0;
 }
+.boton-whatsapp{
+position: fixed;
+z-index: 100;
+width: 150px;
+right: 2px;
+bottom: 10px;
+
+}
+.boton-whatsapp:hover{
+    position: fixed;
+    
+    width: 170px;
+    right: -20px;
+    bottom: 2px;
+    transition: 200ms;
+    
+    }
+
 .nota{
     display: flex;
     font-size: 25px;
