@@ -18,11 +18,7 @@
     width: 70%;
     height: 80%;
    
-}
-
-
-
-
+} 
 
 .boton-recetas{
 
@@ -53,12 +49,75 @@ a:hover{
 
 }
 
-    .titulo-banner{
+.titulo-banner{
     font-size: 40px;
     font-family: nexa;
 
 }
+.contenedor-banner-items{
+    width: 100%;
+    min-height: 350px;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    background: linear-gradient(#fff, 80%, #f8e0e0);
+}
+.titulo-banner-items{
+    text-align: center;
+    font-family: questrial;
+    font-size:33px;
+    color:#747474;
+}
+.titulo-banner-items label{
+    text-align: center;
+    font-family: questrial;
+    font-size:33px;
+    color:#E94027; 
+}
 
+.titulo-banner-items hr{ 
+    margin-top: 40px; 
+    width: 330px;
+}
+
+.contenedor-4-items{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contenedor-item{
+    border:1px solid #fff;
+    min-height: 300px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.contenedor-imagen-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.titulo-item{
+    height: 50px;
+    font-family: questrial;
+    font-size: 25px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color:#E94027;
+    padding: 15px;
+}
+
+.texto-item{
+    text-align: center;
+    font-family:questrial;
+    font-size: 17px;
+    padding-bottom: 35px;
+    color: #6e6e6e;
+
+}
 
 #video_background {
     bottom: 0px;
