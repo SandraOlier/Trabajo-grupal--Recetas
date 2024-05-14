@@ -82,16 +82,20 @@ a:hover{
 
 .contenedor-4-items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .contenedor-item{
     border:1px solid #fff;
-    min-height: 300px;
+    min-height: 280px;
     width: 250px;
     background-color: #fff;
     border-radius: 10px;
+    border-image: linear-gradient(#fdf6e7, #e78403) 30;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
 }
 .contenedor-imagen-item{
     display: flex;
