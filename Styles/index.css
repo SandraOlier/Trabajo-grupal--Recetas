@@ -1,3 +1,4 @@
+
 .banner{
     margin-top:-10px;
     background-image: url('../Images/banner.jpg') ;
@@ -85,6 +86,7 @@ a:hover{
 }
 
 .contenedor-4-items{
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -93,8 +95,8 @@ a:hover{
 .contenedor-item{
     border:1px solid #fff;
     min-height: 280px;
-    width: 250px;
-    background-color: #fff;
+    width: 230px;
+    background-color:  #fff ;
     border-radius: 10px;
     border-image: linear-gradient(#fdf6e7, #e78403) 30;
     border-width: 2px;
@@ -110,7 +112,7 @@ a:hover{
 .titulo-item{
     height: 50px;
     font-family: questrial;
-    font-size: 25px;
+    font-size: 20px;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -121,7 +123,7 @@ a:hover{
 .texto-item{
     text-align: center;
     font-family:questrial;
-    font-size: 17px;
+    font-size: 14px;
     padding-bottom: 35px;
     color: #6e6e6e;
 
