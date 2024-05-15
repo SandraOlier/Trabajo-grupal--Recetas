@@ -304,7 +304,7 @@ h4{
     min-height: 240px;
 }
 .seguinos-titulo{
-    font-size: 30px;
+    font-size: 33px;
     font-family: questrial;
     
 }
@@ -319,17 +319,78 @@ h4{
 .separacion-hr{
     border: none; border-left: 2px solid #bbb; height: 80%;
 }
-
-
-
-
-
+ 
 
 .contactanos-titulo{
-    font-size: 30px;
+    font-size: 33px;
     font-family: questrial;
     
 }
+
+.contenedor-receta-form{
+
+}
+
+#receta{
+    background-color:#ddd;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: questrial;
+    padding-left: 11px;
+    padding-right:5px;
+    padding-top:11px;
+    border:none;
+    margin-top: 10px;
+ }
+
+ .contenedor-3form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+#nombre{
+    background-color:#ddd;
+    color: #fff;
+    width: 210px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: questrial;
+    padding-left: 11px;
+    padding-right: 5px;
+    border: none;
+ }
+
+ #email{
+    background-color:#ddd;
+    color: #fff;
+    width: 210px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: questrial;
+    padding-left: 11px;
+    padding-right: 5px;
+    border:none
+ }
+
+#Enviar{
+   background-color:#51C249;
+   color: #fff;
+   width: 110px;
+   height: 45px;
+   border-radius: 8px;
+   font-size: 20px;
+   font-family: questrial;
+}
+#Enviar:hover{
+    background-color:#3f9938;
+    width: 110px;
+    height: 45px;
+    transition: 200ms;
+ }
 
 
 
