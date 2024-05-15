@@ -174,7 +174,7 @@
     }
     
     .imagen-receta img{
-        width: 650px;
+        width: 80%;
         box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.35);
         z-index: 1;
     }
@@ -656,7 +656,7 @@
     }
     
     .imagen-receta img{
-        width: 650px;
+        width: 80%;
         box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.35);
         z-index: 1;
     }
