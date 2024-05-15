@@ -17,6 +17,17 @@
         }
 }
 
+@media screen and (min-width: 480px){
+    .boton-whatsapp{
+        position: fixed;
+        z-index: 100;
+        width: 150px;
+        right: -45px;
+        bottom: 2px;
+        
+        }
+}
+
 
 @media screen and (min-width: 1023px){
     .boton-whatsapp{
