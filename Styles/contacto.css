@@ -3,6 +3,15 @@ body{
     padding: 0;
 }
 
+p{
+    font-family: 'questrial';
+}
+
+#titulo-mapa{
+    font-family: 'questrial';
+    src: url('../Fonts/Questrial-Regular.otf') format('truetype');
+}
+
 .contenedor-contacto{
     background-image: url(../Images/fondo-contacto.jpg);
     justify-content: space-around;
@@ -14,7 +23,7 @@ body{
 } 
 
 .formulario{
-background-color: rgba(243, 235, 233, 0.7);
+background-color: rgba(7, 7, 7, 0.8);
 border-radius: 15px;
 align-items: center;
 margin: auto;
@@ -23,6 +32,30 @@ border: 30px;
 max-width: 320px;
 
 } 
+
+#Nombre{
+    background-color: #ddd;
+    border-radius: 8px;
+    width: 230px;
+    }
+
+#Email{
+    background-color: #ddd;
+    border-radius: 8px;
+    width: 230px;
+    }
+
+#Telefono{
+    background-color: #ddd;
+    border-radius: 8px;
+    width: 230px;
+    }  
+    
+#Mensaje{
+    background-color: #ddd;
+    border-radius: 8px;
+    width: 300px;
+    }    
 
 .contenedor-mapa{
     box-sizing: border-box;
@@ -44,10 +77,11 @@ max-width: 320px;
         margin-right: auto;
         padding-top: 10px;
         padding-bottom: 20px;
-
+    }
+    p{
+        font-family: questrial; color: rgb(255, 255, 255);
     }
 
-    
 
     .contenedor-mapa {
         width: 100%;
@@ -56,6 +90,22 @@ max-width: 320px;
         padding-top: 10px;
        padding-bottom: 20px;
     }
+
+    #Enviar{
+        background-color:#51C249;
+        color: #fff;
+        width: 80px;
+        height: 45px;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: questrial;
+     }
+     #Enviar:hover{
+         background-color:#3f9938;
+         width: 80px;
+         height: 45px;
+         transition: 200ms;
+      }
 
 
 }
@@ -69,6 +119,10 @@ max-width: 320px;
         padding-bottom: 30px;
 
     }
+
+        
+    }
+
     .contenedor-mapa {
         width: 100%;
         margin-left: auto;
@@ -80,7 +134,7 @@ max-width: 320px;
     .mapa {
         padding-left: 10px;
     }
-}
+
 
 @media screen and (min-width: 1280px) {
     .contenedor-contacto{
