@@ -149,7 +149,7 @@ a:hover{
     z-index: -1000;
     overflow: hidden;
     margin-top: -190px;
-    background-position: center,center;
+    
     }
    
 
@@ -293,3 +293,44 @@ h4{
     color:#E94027;
 
 }
+
+.contenedor-contacto{
+    background-color: #58595B;
+    color: #fff;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    min-height: 240px;
+}
+.seguinos-titulo{
+    font-size: 30px;
+    font-family: questrial;
+    
+}
+
+.encontranos-titulo{
+    font-size: 25px;
+    font-family: questrial;
+    color:#bbb;
+    
+}
+
+.separacion-hr{
+    border: none; border-left: 2px solid #bbb; height: 80%;
+}
+
+
+
+
+
+
+.contactanos-titulo{
+    font-size: 30px;
+    font-family: questrial;
+    
+}
+
+
+
+
