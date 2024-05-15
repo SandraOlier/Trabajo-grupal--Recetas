@@ -2,7 +2,7 @@
 <ul>
   <li>Laura Bondoni </li>
   <li>Araceli María Cardozo</li>
-  <li>Fabián Mesullo</li>
+  <li>Fabián Masullo</li>
   <li>Andrea Ochoa </li>
   <li>Sandra Olier</li>
 </ul>
