@@ -1565,7 +1565,7 @@ a:hover{
 }
 
 .imagen-receta img{
-    width: 650px;
+    width: 60%;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.35);
     z-index: 1;
 }
@@ -1780,12 +1780,15 @@ h4{
  
 
 .contactanos-titulo{
+    margin-top: 0px;
     font-size: 33px;
     font-family: questrial;
+    text-align: left;
     
 }
 
 .contenedor-receta-form{
+    width: 100%;
 
 }
 
