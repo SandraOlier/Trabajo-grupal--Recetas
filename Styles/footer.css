@@ -1,4 +1,34 @@
+@media screen and (min-width: 320px) {
+    .footer{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        background-color: #E94027;
+        color: #fff;
+        font-family:questrial;
+        font-size: 14px;
+    }
+    }
 
+    @media screen and (min-width: 678px) {
+        .footer{
+            margin-top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 45px;
+            background-color: #E94027;
+            color: #fff;
+            font-family:questrial;
+            font-size: 18px;
+        }
+        }
+    
+@media screen and (min-width: 1023px) {
 .footer{
     margin-top: 0px;
     display: flex;
@@ -10,4 +40,5 @@
     color: #fff;
     font-family:questrial;
     font-size: 18px;
+}
 }
