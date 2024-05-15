@@ -1,3 +1,4 @@
+ 
 
 .banner{
     margin-top:-10px;
@@ -6,21 +7,20 @@
     height: 450px;
     display: block;
     overflow: hidden;
-    position: absolute;
     width: 100%;
     padding-bottom: 20px;
 }
 
 
 .ubicacion-contenido-banner{
-    position: relative;
+    
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-
-    width: 70%;
-    height: 80%;
+    height: 450px;
+    width: 70%;    
+    margin: auto;
    
 } 
 
@@ -28,22 +28,31 @@
 
     display: flex;
     background-color:#E94027;
-    width: 170px;
-    height: 40px;
+    width: 220px;
+    height: 50px;
     border-radius: 5px;
     text-align: center;
     align-content: center;
     align-items: center;
     justify-content: center;
     color:#fff;
-    font-family: questrial;
-    font-size: 17px;
+    font-family: nexa;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #575757 ;
 
 }
 
 
 a:link, :visited, :active{
     color: #4D4D4D;
+}
+
+.boton-recetas a:hover{
+
+    color: #fff;
+    transition: 400ms;
+    font-size: 20px;
+
 }
 
 a:hover{ 
@@ -54,8 +63,10 @@ a:hover{
 }
 
 .titulo-banner{
-    font-size: 40px;
+    font-size: 70px;
+    margin-top: 40px;
     font-family: nexa;
+    text-align: center;
 
 }
 .contenedor-banner-items{
@@ -65,7 +76,7 @@ a:hover{
     padding-bottom: 30px;
     padding-top: 40px;
     background: linear-gradient(#fff, 80%, #f8e0e0);
-    margin-top: 450px;
+    margin-top: 30px;
 }
 .titulo-banner-items{
     text-align: center;
@@ -295,7 +306,7 @@ h4{
 }
 
 .contenedor-contacto{
-    background-color: #58595B;
+    background-color: #000;
     color: #fff;
     padding-top: 40px;
     display: flex;
@@ -303,17 +314,63 @@ h4{
     padding-bottom: 50px;
     min-height: 240px;
 }
-.seguinos-titulo{
+.conozcanos-titulo{
     font-size: 33px;
     font-family: questrial;
     
 }
 
-.encontranos-titulo{
+.nosotros-titulo{
     font-size: 25px;
     font-family: questrial;
     color:#bbb;
     
+}
+
+.contiene2alumnos{
+    display: flex;
+    justify-content: center;
+}
+.contiene2alumnos a:hover{
+    text-decoration: none;
+    
+}
+.contiene3alumnos a:hover{
+  
+
+}
+
+.contiene3alumnos{
+    display: flex;
+    margin-top: 10px;
+
+}
+ 
+
+.imagen-mujer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagen-hombre{
+    display: flex;
+    justify-content: center;
+
+}
+.nombres{
+    font-family: questrial;
+    color: #888;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.nombres:hover{
+
+    color: #e78403;
+    opacity: 80%;
+    transition: 300ms;
 }
 
 .separacion-hr{
@@ -391,7 +448,3 @@ h4{
     height: 45px;
     transition: 200ms;
  }
-
-
-
-
