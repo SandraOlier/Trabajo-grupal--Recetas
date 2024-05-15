@@ -5,23 +5,42 @@
     text-align: center;
     margin: 20px 0;
 }
-.boton-whatsapp{
-position: fixed;
-z-index: 100;
-width: 150px;
-right: 2px;
-bottom: 10px;
+
+@media screen and (min-width: 320px){
+    .boton-whatsapp{
+        position: fixed;
+        z-index: 100;
+        width: 150px;
+        right: -45px;
+        bottom: 2px;
+        
+        }
+}
+
+
+@media screen and (min-width: 1023px){
+    .boton-whatsapp{
+        position: fixed;
+        z-index: 100;
+        width: 150px;
+        right: 2px;
+        bottom: 10px;
+        
+        }
+
+    .boton-whatsapp:hover{
+        position: fixed;
+        
+        width: 170px;
+        right: -20px;
+        bottom: 2px;
+        transition: 200ms;
+        
+        }
+
 
 }
-.boton-whatsapp:hover{
-    position: fixed;
-    
-    width: 170px;
-    right: -20px;
-    bottom: 2px;
-    transition: 200ms;
-    
-    }
+
 
 .nota{
     display: flex;
