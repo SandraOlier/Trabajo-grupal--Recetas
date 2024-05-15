@@ -295,17 +295,13 @@
 
     .contenedor-video{
         width: 100%;
-        height: 400px;
-        z-index: -1000;
         overflow: hidden;
     
     }
     
     #video_background {
         width: 100%;
-        z-index: -1000;
         overflow: hidden;
-        margin-top: -190px;
         
         
         }
@@ -550,6 +546,7 @@
         padding-top: 20px;
         background: linear-gradient(#fff, 80%, #f8e0e0);
         margin-top: 30px;
+        
     }
     .titulo-banner-items{
         text-align: center;
@@ -592,7 +589,7 @@
         border-style: solid;
         padding: 10px;
         margin-top: 20px;
-        height: 380px;
+        height: 500px;
     }
 
     .contenedor-imagen-item{
@@ -776,15 +773,11 @@
     .contenedor-video{
         margin-top: 0px;
         width: 100%;
-        height: 200px;
-        z-index: -1000;
-    
     }
     
     #video_background {
         width: 100%;
-        height: 600px; 
-        
+         
         }
     
     .contenedor-contacto{
@@ -1098,21 +1091,7 @@
         font-family: nexa;
     
     }
-    .contenedor-video{
-        width: 100%;
-        height: 400px;
-        z-index: -1000;
-        overflow: hidden;
-    
-    }
-    
-    #video_background {
-        width: 100%;
-        z-index: -1000;
-        overflow: hidden;
-        margin-top: -190px;
-        
-        }
+
        
     
     .titulo-receta{
@@ -1255,6 +1234,18 @@
         color:#E94027;
     
     }
+
+    .contenedor-video{
+        width: 100%;
+        overflow: hidden;
+    
+    }
+    
+    #video_background {
+        width: 100%;
+        overflow: hidden;
+        
+        }
     
     .contenedor-contacto{
         background-color: #000;
