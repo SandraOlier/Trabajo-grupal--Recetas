@@ -413,7 +413,7 @@
         background-color:#ddd;
         color: #fff;
         border-radius: 8px;
-        font-size: 20px;
+        font-size: 12px;
         font-family: questrial;
         padding-left: 11px;
         padding-right:5px;
@@ -424,7 +424,7 @@
     
      .contenedor-3form{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 20px;
         display: flex;
         justify-content: space-around;
      }
@@ -432,10 +432,10 @@
     #nombre{
         background-color:#ddd;
         color: #fff;
-        width: 180px;
-        height: 40px;
+        width: 110px;
+        height: 35px;
         border-radius: 8px;
-        font-size: 20px;
+        font-size: 13px;
         font-family: questrial;
         padding-left: 11px;
         padding-right: 5px;
@@ -445,32 +445,26 @@
      #email{
         background-color:#ddd;
         color: #fff;
-        width: 180px;
-        height: 40px;
+        width: 110px;
+        height: 35px;
         border-radius: 8px;
-        font-size: 20px;
+        font-size: 13px;
         font-family: questrial;
         padding-left: 11px;
         padding-right: 5px;
-        border:none
+        border:none;
      }
     
     #Enviar{
        background-color:#51C249;
        color: #fff;
-       width: 80px;
-       height: 45px;
+       width: 75px;
+       height: 35px;
        border-radius: 8px;
-       font-size: 20px;
+       font-size: 17px;
        font-family: questrial;
     }
-    #Enviar:hover{
-        background-color:#3f9938;
-        width: 80px;
-        height: 45px;
-        transition: 200ms;
-     }
-    
+
     }
 
 @media screen and (min-width: 480px)  {
@@ -598,7 +592,7 @@
         border-style: solid;
         padding: 10px;
         margin-top: 20px;
-        height: 330px;
+        height: 380px;
     }
 
     .contenedor-imagen-item{
@@ -900,7 +894,7 @@
         padding-top:11px;
         border:none;
         margin-top: 10px;
-        width: 80%;
+        width: 90%;
      }
     
      .contenedor-3form{
@@ -913,7 +907,7 @@
     #nombre{
         background-color:#ddd;
         color: #fff;
-        width: 180px;
+        width: 170px;
         height: 40px;
         border-radius: 8px;
         font-size: 20px;
@@ -926,7 +920,7 @@
      #email{
         background-color:#ddd;
         color: #fff;
-        width: 180px;
+        width: 170px;
         height: 40px;
         border-radius: 8px;
         font-size: 20px;
